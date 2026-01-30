@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Actividad Física</string>
+    
+    <!-- MainActivity -->
+    <string name="titulo_principal">Registro de Actividad Física</string>
+    <string name="hint_nombre_actividad">Nombre de la actividad</string>
+    <string name="hint_duracion">Duración (minutos)</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_sesion_real">Sesión Real</string>
+    <string name="titulo_historial">Historial de actividades</string>
+    
+    <!-- Validaciones -->
+    <string name="error_nombre_vacio">Por favor, introduce el nombre de la actividad</string>
+    <string name="error_duracion_invalida">Por favor, introduce una duración válida en minutos</string>
+    <string name="actividad_guardada">Actividad \'%1$s\' guardada correctamente</string>
+    
+    <!-- SesionTiempoRealActivity -->
+    <string name="titulo_sesion">Sesión en Tiempo Real</string>
+    <string name="subtitulo_sesion">Mueve tu dispositivo para detectar actividad</string>
+    <string name="btn_finalizar">Finalizar Sesión</string>
+    <string name="sin_movimiento">Sin movimiento</string>
+    <string name="movimiento_suave">Movimiento suave</string>
+    <string name="movimiento_intenso">Movimiento intenso</string>
+    <string name="acelerometro_no_disponible">Acelerómetro no disponible en este dispositivo</string>
+    <string name="descripcion_sensor">El acelerómetro está midiendo tu actividad</string>
+    
+    <!-- Tipos de actividad -->
+    <string name="tipo_cardio">Cardio</string>
+    <string name="tipo_flexibilidad">Flexibilidad</string>
+    <string name="tipo_fuerza">Fuerza</string>
+    <string name="tipo_otro">Otro</string>
+    
+    <!-- Formato de duración -->
+    <string name="formato_minutos">%1$d min</string>
+</resources>
